@@ -1,0 +1,80 @@
+.main-screen__find {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0px 10px;
+  padding-bottom: 20px;
+  border-bottom: rgba(0, 0, 0, 0.1) solid 1px;
+}
+.main-screen_find__column {
+  width: 33%;
+}
+.main-screen_find__letter {
+  padding-top: 30px;
+  align-items: center;
+}
+.main-screen__find__friends,
+footer {
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+}
+#main-screen__find__ment {
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.openchat {
+  margin-left: var(--horizontal-space);
+  padding-top: 10px;
+  border-top: rgba(0, 0, 0, 0.1) 1px solid;
+}
+.openchat__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px;
+  margin-right: 20px;
+}
+.openchat__title {
+  color: #374151;
+  font-size: larger;
+}
+.openchat__hashtag {
+  padding: 10px 0px;
+}
+.openchat__logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.openchat__status {
+  align-items: center;
+  justify-content: left;
+  display: flex;
+}
+.openchat__Active {
+  color: plum;
+  margin-left: 5px;
+}
+.openchat__img {
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.openchat__BTS {
+  margin-bottom: 20px;
+  border-bottom: rgba(0, 0, 0, 0.1) 1px solid;
+  position: relative;
+}
+.openchat__like {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  position: absolute;
+  left: 100px;
+  padding: 3px 6px;
+  color: white;
+  font-weight: 200;
+}

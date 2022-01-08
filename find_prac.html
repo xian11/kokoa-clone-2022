@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- nav>ul>li*4>a enter하면 아래처럼-->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="far fa-user fa-2x"></i>
+            </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chat.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn"></li>
+          <a class="nav__link" href="find.html">
+              <i class="fas fa-search fa-2x"></i>
+            </a>
+        </li>
+        <li class="nav__btn"></li>
+          <a class="nav__link" href="more.html"><i class="fas fa-ellipsis-h fa-2x">
+            <span class="ellipsis_dot"> </span>
+          </i></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- icon 주소 뒤에 fa-lg를 붙이면 아이콘이 커진다.왠지는 모름 -->
+
+<header class="screen-header">
+  <h1 class="screen-header__title">Find</h1>
+  <div class="screen-header__icons">
+    <span><i class="fas fa-search fa-lg"></i></span>
+    <span><i class="fas fa-cog fa-lg"></i></span>
+  </div>
+</header>
+
+<main class="main-screen">
+  <div class="main-screen__find">
+  <div class="main-screen_find__column"><i class="fas fa-qrcode fa-2x"></i><p class="main-screen_find__letter">QR Code</p></div>
+  <div class="main-screen_find__column"><i class="far fa-address-book fa-2x"></i><p class="main-screen_find__letter">Add by Contact</p></div>
+  <div class="main-screen_find__column"><i class="fab fa-ideal fa-2x"></i><p class="main-screen_find__letter">ID</p></div>
+  <div class="main-screen_find__column"><i class="far fa-envelope fa-2x"></i><p class="main-screen_find__letter">Invite</p></div>
+</div>
+  <div class="main-screen__find__friends">
+    <span>Recommended Friends</span>
+    <span id="main-screen__find__ment">You have no recommended friends.</span>
+  </div>
+</main>
+
+<footer>
+  <div class="openchat">
+
+  <div class="openchat__header">
+  <span>Open Chat</span>
+  <div><span>Go to OpenChat Home</span>
+  <i class="fas fa-chevron-right fa-xs"></i></div>
+</div>
+
+<div class="openchat__BTS">
+  <p class="openchat__title">#BTS</p>
+  <p class="openchat__hashtag">#BTS#ARMY#FRIENDS</p>
+  <p class="openchat__status">
+    <img class="openchat__logo" 
+    src="https://static.news.zumst.com/images/18/2020/11/20/203a23760ed84e48a63179d2553e2971.jpg" alt=""> 802 members | <span class="openchat__Active"> Active</span></p>
+  <img class="openchat__img" src="https://newsimg.sedaily.com/2018/01/10/1RUDI3XSJL_2.jpg"/>
+ <span class="openchat__like">♥ 326</span>
+</div>
+
+<div class="openchat__BTS">
+  <p class="openchat__title">Bts Gang~</p>
+  <p class="openchat__hashtag">#englishonly #ipurpleyou #jimin #taeta...</p>
+  <p class="openchat__status"> 
+    <img class="openchat__logo" 
+    src="http://www.breaknews.com/imgdata/breaknews_com/201607/2016072734111670.jpg" alt="">299 members | <span class="openchat__Active"> Active</span></p>
+  <img class="openchat__img" src="https://yt3.ggpht.com/lk3DfD044AFT0xgZLUVJgRAyMeGRF8JJvFtfK5Db5Am8LOBClf83FMzPCnBZ944xKBQiZVO9kQ=s900-c-k-c0x00ffffff-no-rj"/>
+ <span class="openchat__like">♥ 215</span>
+</div>
+</div>
+</footer>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      ;
+      crossorigin="anonymous"
+      ;
+    ></script>
+  </body>
+</html>
